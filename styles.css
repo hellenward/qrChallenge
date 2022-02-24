@@ -1,0 +1,42 @@
+ 
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: #ccc url(./images//grey.jpeg) repeat-y 50% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body main {
+    flex: 1 auto;
+}
+
+footer {
+    text-align: center;
+    line-height: 100%;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0 15%;
+    border-radius: 5%;
+}
+
+.containerDiv {
+    background-color: white;
+    margin: 50% 10%;
+    border-radius: 5%;
+    padding: 5%;
+}
